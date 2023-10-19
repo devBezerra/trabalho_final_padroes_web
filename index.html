@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API Geolocalização</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <h1>View the weather data for your current city</h1>
+        <button onclick="getLocation()" id="showButton">Show</button>
+      </section>
+
+      <section class="informations">
+        <section id="loader" class="loader"></section>
+
+        <section id="city" class="city"></section>
+      </section>
+    </main>
+  </body>
+</html>
